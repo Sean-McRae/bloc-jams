@@ -34,11 +34,11 @@ var albumDavid = {
     year: '2012',
     albumArtUrl: '/album/03.png',
     songs: [
-        { title: 'Hello, Operator?', duration: '1:01' },
-        { title: 'Ring, ring, ring', duration: '5:01' },
-        { title: 'Fits in your pocket', duration: '3:21'},
-        { title: 'Can you hear me now?', duration: '3:14' },
-        { title: 'Wrong phone number', duration: '2:15'}
+        { title: '911', duration: '10:00:00' },
+        { title: 'Brave', duration: '5:00' },
+        { title: 'Wasteland', duration: '4:00'},
+        { title: 'Last Day', duration: '3:00' },
+        { title: 'Deserter', duration: '2:00'}
     ]
 };
 var createSongRow = function(songNumber, songName, songLength) {
@@ -52,11 +52,11 @@ var createSongRow = function(songNumber, songName, songLength) {
 
     return template;
 };
-var albumTitle = documentgetElementsByClassName('album-view-title')[0];
-var albumArtist = documentgetElementsByClassName('album-view-artist')[0];
-var albumReleaseInfo = documentgetElementsByClassName('album-view-release-info')[0];
-var albumImage = documentgetElementsByClassName('album-cover-art')[0];
-var albumSongList = documentgetElementsByClassName('album-view-song-list')[0];
+var albumTitle = document.getElementsByClassName('album-view-title')[0];
+var albumArtist = document.getElementsByClassName('album-view-artist')[0];
+var albumReleaseInfo = document.getElementsByClassName('album-view-release-info')[0];
+var albumImage = document.getElementsByClassName('album-cover-art')[0];
+var albumSongList = document.getElementsByClassName('album-view-song-list')[0];
 var setCurrentAlbum = function(album) {
 
     var albumTitle = document.getElementsByClassName('album-view-title')[0];

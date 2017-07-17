@@ -4,6 +4,7 @@ body.album {
    background-attachment: fixed;
    background-position: center center;
    background-size: cover;
+   padding-bottom: 200px;
 }
 
 .album-cover-art {
@@ -17,6 +18,7 @@ body.album {
    position: relative;
    top: 1.5rem;
    padding: 1rem;
+
 }
 
 .album-view-details .album-view-title {
@@ -27,6 +29,7 @@ body.album {
 .album-view-details .album-view-artist {
    font-weight: 300;
    font-size: 1.5rem;
+
 }
 
 .album-view-details .album-view-release-info {
@@ -83,7 +86,7 @@ body.album {
 
  @media (max-width: 40rem) and (min-width: 20rem) {
      .album-view-details {
-         text-align: center
+         text-align: center;
      }
 
      .album-view-title {
@@ -100,3 +103,6 @@ body.album {
          margin: auto;
      }
  }
+table td {
+
+}
